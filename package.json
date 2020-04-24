@@ -1,0 +1,22 @@
+{
+  "name": "expresscourse",
+  "version": "1.0.0",
+  "description": "basic learning",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "express-handlebars": "^4.0.3",
+    "moment": "^2.24.0",
+    "uuid": "^7.0.3"
+  },
+  "author": "Ashok",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
